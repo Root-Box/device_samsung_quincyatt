@@ -26,6 +26,8 @@
 # inherit from the proprietary version
 -include vendor/samsung/quincyatt/BoardConfigVendor.mk
 
+TARGET_GCC_VERSION := 4.6
+
 TARGET_BOOTLOADER_BOARD_NAME := SGH-I717
 
 # Assert
